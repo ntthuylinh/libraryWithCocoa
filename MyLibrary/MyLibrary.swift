@@ -7,9 +7,9 @@
 //
 
 public class MyLibrary {
-
-    public let name = "MyFramework"
     
+    public let name = "MyFramework"
+    public init() {}
     public func add(a: Int, b: Int) -> Int {
         return a + b
     }
