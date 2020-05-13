@@ -18,4 +18,8 @@ public class MyLibrary {
         return a - b
     }
     
+    public func addV2(a: Int, b: Int) -> Int? {
+        return a + b
+    }
+    
 }
